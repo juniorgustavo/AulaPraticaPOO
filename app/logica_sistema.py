@@ -73,12 +73,17 @@ def deletar_aluno(matricula):
 
 #INICIO LÓGICA CURSO
 
-def cadastrar_curso():
-    pass
+def cadastrar_curso(nome, duracao, professor, materias):
+    if not nome or not duracao or not professor or not materias
+        return "Não é possível cadastrar curso sem todos os dados."
+
+    curso_objeto = Curso(nome,duracao,professor,materias)
+    CURSOS[curso_objeto.nome] = curso_objeto
+
 
 def listar_cursos():
     pass
 
 def detalhar_curso():
     pass
-
+def excluir_curso

@@ -72,3 +72,13 @@ def deletar_aluno(matricula):
 #FIM LÓGICA ALUNO
 
 #INICIO LÓGICA CURSO
+
+def cadastrar_curso():
+    pass
+
+def listar_cursos():
+    pass
+
+def detalhar_curso():
+    pass
+

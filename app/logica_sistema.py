@@ -109,5 +109,14 @@ def detalhar_curso(nome):
     f"-------------------------\n"
     f"")
 
-def excluir_curso():
+def excluir_curso(nome):
     pass
+    if not nome:
+        return "Curso não informado."
+    curso = CURSOS.get(nome)
+
+    if not curso:
+        return "Curso não encontrado."
+
+    CURSOS.pop(curso)
+    return "Curso excluído com sucesso."

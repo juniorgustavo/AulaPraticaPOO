@@ -8,6 +8,7 @@ class Curso:
         self.aulas = []
 
     def contabilizar_presenca(self):
+
         pass
 
     def listar_alunos_aprovados(self):

@@ -28,5 +28,3 @@ while comando != "sair":
         case "sair":
             print("Saindo do sistema...")
 
-
-            #teste pull.
